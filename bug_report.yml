@@ -1,0 +1,41 @@
+name: Сообщение об ошибке
+description: Помогите воспроизвести проблему NOVA
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Не публикуйте личные данные, пароли и чужие платные файлы. Проверьте диагностический журнал перед прикреплением.
+  - type: textarea
+    id: description
+    attributes:
+      label: Что произошло?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить проблему?
+      placeholder: "1. Открыть…\n2. Выбрать…\n3. Получить ошибку…"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемый результат
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Версия Windows и сборка
+      placeholder: "Например: Windows 11, сборка из winver"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия NOVA или дата сборки
+  - type: textarea
+    id: extras
+    attributes:
+      label: Мониторы, масштаб, сообщения и безопасные диагностические данные

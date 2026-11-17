@@ -1,0 +1,7 @@
+Third-party notices
+
+LibVLCSharp / LibVLCSharp.WPF 3.9.4: LGPL-2.1-or-later; source https://github.com/videolan/libvlcsharp (branch 3.x), package https://www.nuget.org/packages/LibVLCSharp.WPF/3.9.4 .
+VideoLAN.LibVLC.Windows 3.0.21: NuGet declares LGPL-2.1-or-later; dynamically linked native libraries, plugins and their respective third-party components may carry additional license terms. Upstream matching version source and license files: https://github.com/videolan/vlc/tree/3.0.21 . Inspect the exact plugin/contrib sources and corresponding build scripts when redistributing. Do not represent these notes as a legal compliance audit.
+Microsoft.Web.WebView2 1.0.3537.50: Microsoft Edge WebView2 SDK; terms and notices https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.3537.50 and https://developer.microsoft.com/microsoft-edge/webview2/ . The WebView2 Runtime is installed separately and is subject to its own terms.
+.NET / WPF: https://github.com/dotnet/wpf and https://github.com/dotnet/runtime; Microsoft distributions have separate terms.
+Wallpaper Engine is a third-party product, not included in this project.
